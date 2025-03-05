@@ -1,6 +1,14 @@
 import React from 'react';
 import './styles/styles.css';
 
-export const LoginButton = () => {
-  return <button className="main-section-button"> Записатися </button>;
+interface LoginButtonProps {
+  style?: React.CSSProperties;
+}
+
+export const LoginButton = ({ style }: LoginButtonProps) => {
+  return (
+    <button className="main-section-button" style={style}>
+      Записатися
+    </button>
+  );
 };

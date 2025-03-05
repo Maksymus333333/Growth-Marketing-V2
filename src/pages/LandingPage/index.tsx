@@ -5,6 +5,7 @@ import './styles/styles.css';
 import { Interests } from '../../modules/AboutСourse/Interests';
 import { PinkSection } from '../../modules/AboutСourse/PinkSection';
 import { MainSection } from '../../modules/AboutСourse/MainSection';
+import { ApplySection } from '../../modules/AboutСourse/ApplySection';
 
 export const LandingPage = (): JSX.Element => {
   return (
@@ -16,6 +17,7 @@ export const LandingPage = (): JSX.Element => {
       <div className="full-width">
         <PinkSection />
       </div>
+      <ApplySection />
     </div>
   );
 };
