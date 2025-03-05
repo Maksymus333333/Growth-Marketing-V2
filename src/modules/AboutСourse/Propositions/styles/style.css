@@ -1,0 +1,95 @@
+.proposition-container-wrapper {
+    padding-top: 130px;
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.proposition-icon-text-pink-container {
+    background-color: rgba(250, 233, 253, 1);
+    border-radius: 20px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-proposition-container {
+    padding: 65px 0px 125.4px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 107px;
+    width: 452px;
+}
+
+.proposition-h2-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.proposition-h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+.pink-path {
+    width: 156px;
+    height: 17.6px;
+
+}
+.icon-list-container {
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.task-list-icon {
+    width: 62px;
+    height: 74px;
+}
+.icon-list-text {
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.proposition-icon-text-blue-container {
+    background-color: rgba(220, 246, 253, 1);
+    border-radius: 20px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.middle-proposition-container {
+    padding-top: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 452px;
+}
+.collaborations-icon {
+    width: 73px;
+    height: 73px;
+}
+.office-worker-icon {
+    width: 73px;
+    height: 74px;
+}
+
+.right-proposition-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 452px;
+}
+.group-meeting-icon {
+    width: 63px;
+    height: 73px;
+}
+
+.handshake-icon {
+    width: 73px;
+    height: 52px;
+}
