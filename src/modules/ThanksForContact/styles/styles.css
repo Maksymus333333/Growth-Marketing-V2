@@ -1,0 +1,92 @@
+.thanks-contact-wrapper {
+  display: flex;
+  padding: 218px 160px;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.thanks-title-social {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.thanks-title-social h1 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 67px;
+}
+
+.socials-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.chat-bubbles-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: rgb(40 89 197 / 25%);
+  border-radius: 20px;
+}
+
+.chat-bubbles-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.social-main-text {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.socials-items-container {
+  display: flex;
+  width: 678px;
+  padding: 40px 52px;
+  border: 1px solid #dadada;
+  border-radius: 32px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+  flex-direction: row;
+  gap: 52px;
+}
+
+.social-column-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.linked-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.linked-in-icon {
+  width: 37px;
+  height: 37px;
+}
+
+.social-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.linked-text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.linked-text {
+  font-size: 20px;
+  line-height: 28px;
+}
