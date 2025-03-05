@@ -1,0 +1,32 @@
+.gray-section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 408px;
+  background: url('../../../../assets/images/pink-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 130px 0px;
+}
+
+.gray-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-section-title {
+  width: 1123px;
+  height: 120px;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+
+.gray-weight-text {
+  color: rgba(71, 198, 232, 1);
+  margin: 0;
+}

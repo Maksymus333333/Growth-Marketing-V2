@@ -1,9 +1,12 @@
 import React from 'react';
+import { Header } from './modules/Header';
+import { LandingPage } from './pages/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <p> Хелоу Артем</p>
+      <Header/>
+      <LandingPage/>
     </div>
   );
 }
