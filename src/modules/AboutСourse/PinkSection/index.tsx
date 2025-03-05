@@ -12,6 +12,6 @@ export const PinkSection = (): JSX.Element => {
           ТА ЗРОБИТИ ПЕРШІ КРОКИ В ЦІЙ СФЕРІ
         </p>
       </div>
-    </section> 
+    </section>
   );
 };
