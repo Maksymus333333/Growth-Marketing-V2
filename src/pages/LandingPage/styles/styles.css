@@ -1,14 +1,14 @@
 .landing-page-wrapper {
   width: 100%;
-  padding: 0 90px;
-  background-image: url(../../../assets/images/page-background.png);
+  padding: 0 250px;
+  background-image: url('../../../assets/images/page-background.png');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .full-width {
-  width: calc(100% + 180px);
-  margin-left: -90px;
-  margin-right: -90px;
+  width: calc(100% + 500px);
+  margin-left: -250px;
+  margin-right: -250px;
   padding-top: 130px;
 }
