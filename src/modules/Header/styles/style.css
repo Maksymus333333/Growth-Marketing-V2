@@ -1,9 +1,11 @@
 .header-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 0 90px;
-  background: rgb(255 255 255 / 60%);
   font-size: 20px;
   padding-top: 40px;
 }
