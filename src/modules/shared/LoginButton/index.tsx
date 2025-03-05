@@ -1,6 +1,6 @@
-import React, { JSX } from 'react';
+import React from 'react';
 import './styles/styles.css';
 
-export const LoginButton = (): JSX.Element => {
+export const LoginButton = () => {
   return <button className="main-section-button"> Записатися </button>;
 };
