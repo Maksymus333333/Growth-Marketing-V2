@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 130px 160px 0;
+  padding: 130px 0 0;
 }
 
 .interests-container {
@@ -25,12 +25,12 @@
 }
 
 .interests-item img {
-  border-radius: 20px;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .interests-item p {
+  width: 95%;
   font-size: 20px;
   line-height: 28px;
-  width: 95%;
 }

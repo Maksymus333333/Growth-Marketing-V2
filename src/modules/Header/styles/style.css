@@ -1,20 +1,16 @@
 .header-wrapper {
-  width: 100%;
-  padding: 0 90px;
-  padding-top: 40px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  padding: 0 90px;
+  background: rgb(255 255 255 / 60%);
   font-size: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.6);
-  z-index: 10;
+  padding-top: 40px;
 }
 
 .logo_navigation {
   display: flex;
-  gap: 64px;
   align-items: center;
   height: 48px;
+  gap: 64px;
 }
