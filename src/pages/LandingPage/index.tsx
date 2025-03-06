@@ -7,6 +7,7 @@ import { PinkSection } from '../../modules/AboutСourse/PinkSection';
 import { MainSection } from '../../modules/AboutСourse/MainSection';
 import { Propositions } from '../../modules/AboutСourse/Propositions';
 import { ApplySection } from '../../modules/AboutСourse/ApplySection';
+import { Conditions } from '../../modules/AboutСourse/Conditions';
 
 export const LandingPage = (): JSX.Element => {
   return (
@@ -19,6 +20,7 @@ export const LandingPage = (): JSX.Element => {
         <PinkSection />
       </div>
       <Propositions/>
+      <Conditions/>
       <ApplySection />
     </div>
   );

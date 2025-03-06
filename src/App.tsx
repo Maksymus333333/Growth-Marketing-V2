@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from './modules/Header';
 import { BrowserRouter } from 'react-router-dom';
 import { AppRoutes } from './global/router/Routes';
+import { Footer } from './modules/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="App">
         <Header />
         <AppRoutes />
+        <Footer/>
       </div>
     </BrowserRouter>
   );
