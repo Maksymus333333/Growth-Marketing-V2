@@ -15,47 +15,39 @@ import { InterestItem } from './feature/InterestItem';
 const interestsData = [
   {
     iconSrc: AiEditSpark,
-    backgroundColor: 'rgba(250, 111, 53, 0.25)',
     description: 'Цікавишся рерайтингом контенту за допомогою AI',
   },
   {
     iconSrc: HandHeld,
-    backgroundColor: 'rgba(218, 80, 119, 0.25)',
     description: 'Бажаєш навчитися створювати креативи в Canva',
   },
   {
     iconSrc: BrowthAdd,
-    backgroundColor: 'rgba(132, 160, 229, 0.25)',
+
     description: 'Готовий(-а) публікувати матеріали на WordPress',
   },
   {
     iconSrc: GoogleMedia,
-    backgroundColor: 'rgba(255, 195, 101, 0.25)',
     description: 'Хочеш освоїти налаштування реклами в Google Ads',
   },
   {
     iconSrc: WebcamVideo,
-    backgroundColor: 'rgba(192, 130, 242, 0.25)',
     description: "Маєш бажання створювати відео (не обов'язково, але буде плюсом)",
   },
   {
     iconSrc: SendEmail,
-    backgroundColor: 'rgba(235, 146, 227, 0.25)',
     description: 'Прагнеш навчитися створювати презентації, оформлювати email-розсилки, лід-магніти та інше',
   },
   {
     iconSrc: StartBadge,
-    backgroundColor: 'rgba(111, 212, 128, 0.25)',
     description: 'Отримуєш бонусні бали за досвід у тестуванні та звітності стратегій, креативів і цільових сторінок',
   },
   {
     iconSrc: BrowserWebsite,
-    backgroundColor: 'rgba(142, 198, 237, 0.25)',
     description: 'Впевнено володієш формулами в Google Sheets/Excel та Google Slides',
   },
   {
     iconSrc: GraduationCap,
-    backgroundColor: 'rgba(147, 197, 29, 0.25)',
     description: 'Готовий(-а) вчитися й докладати зусиль',
   },
 ];
@@ -71,18 +63,19 @@ export const Interests = () => {
     <section className="interests-wrapper">
       <div className="interests-container">
         <h2 className="interests-title">Якщо ти:</h2>
+        <div className='interests-rows'>
         {chunkedInterests.map((chunk, index) => (
           <div key={index} className="interests-columns">
             {chunk.map((item, i) => (
               <InterestItem
                 key={i}
                 iconSrc={item.iconSrc}
-                backgroundColor={item.backgroundColor}
                 description={item.description}
               />
             ))}
           </div>
         ))}
+        </div>
       </div>
     </section>
   );
