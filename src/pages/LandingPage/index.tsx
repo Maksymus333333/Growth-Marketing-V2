@@ -19,8 +19,8 @@ export const LandingPage = (): JSX.Element => {
       <div className="full-width">
         <PinkSection />
       </div>
-      <Propositions/>
-      <Conditions/>
+      <Propositions />
+      <Conditions />
       <ApplySection />
     </div>
   );

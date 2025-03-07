@@ -15,11 +15,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 375px;
 }
 
 .gray-section-title {
-  width: 1123px;
-  height: 120px;
+  width: 100%;
+  padding: 69px 62px 69px 85px;
   color: #0d0d0d;
   text-align: center;
   font-size: 32px;
@@ -30,4 +31,27 @@
 .gray-weight-text {
   margin: 0;
   color: rgb(71 198 232 / 100%);
+}
+
+@media screen and (width <= 1440px) {
+  .gray-section-container {
+    padding: 0 90px;
+  }
+}
+
+@media screen and (width <= 820px) {
+  .gray-section-title {
+    padding: 0;
+    font-size: 28px;
+  }
+}
+
+@media screen and (width <= 481px) {
+  .gray-section-container {
+    padding: 24px;
+  }
+
+  .gray-section-title {
+    font-size: 22px;
+  }
 }

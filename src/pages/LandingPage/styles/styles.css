@@ -11,3 +11,63 @@
   margin-left: -250px;
   margin-right: -250px;
 }
+
+@media screen and (width <= 1440px) {
+  .landing-page-wrapper {
+    padding: 0 165px;
+  }
+
+  .full-width {
+    width: calc(100% + 330px);
+    margin-left: -165px;
+    margin-right: -165px;
+  }
+}
+
+@media screen and (width <= 1024px) {
+  .landing-page-wrapper {
+    padding: 0 130px;
+  }
+
+  .full-width {
+    width: calc(100% + 260px);
+    margin-left: -130px;
+    margin-right: -130px;
+  }
+}
+
+@media screen and (width <= 820px) {
+  .landing-page-wrapper {
+    padding: 0 90px;
+  }
+
+  .full-width {
+    width: calc(100% + 180px);
+    margin-left: -90px;
+    margin-right: -90px;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .landing-page-wrapper {
+    padding: 0 44px;
+  }
+
+  .full-width {
+    width: calc(100% + 88px);
+    margin-left: -44px;
+    margin-right: -44px;
+  }
+}
+
+@media screen and (width <= 481px) {
+  .landing-page-wrapper {
+    padding: 0 24px;
+  }
+
+  .full-width {
+    width: calc(100% + 48px);
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
