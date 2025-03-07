@@ -53,28 +53,14 @@ const interestsData = [
 ];
 
 export const Interests = () => {
-  const chunkedInterests = [];
-  const chunkSize = 3;
-  for (let i = 0; i < interestsData.length; i += chunkSize) {
-    chunkedInterests.push(interestsData.slice(i, i + chunkSize));
-  }
-
   return (
     <section className="interests-wrapper">
       <div className="interests-container">
         <h2 className="interests-title">Якщо ти:</h2>
-        <div className='interests-rows'>
-        {chunkedInterests.map((chunk, index) => (
-          <div key={index} className="interests-columns">
-            {chunk.map((item, i) => (
-              <InterestItem
-                key={i}
-                iconSrc={item.iconSrc}
-                description={item.description}
-              />
-            ))}
-          </div>
-        ))}
+        <div className="interests-grid">
+          {interestsData.map((item, i) => (
+            <InterestItem key={i} iconSrc={item.iconSrc} description={item.description} />
+          ))}
         </div>
       </div>
     </section>

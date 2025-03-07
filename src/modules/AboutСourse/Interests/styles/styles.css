@@ -13,7 +13,6 @@
 }
 
 .interests-title {
-  font-size: 40px;
   font-weight: 900;
   margin-bottom: 8px;
 }
@@ -23,6 +22,7 @@
   flex-direction: row;
   gap: 32px;
 }
+
 .interests-rows {
   display: flex;
   flex-direction: column;
@@ -35,7 +35,47 @@
 }
 
 .interests-item p {
-  width: 95%;
-  font-size: 20px;
+  width: 100%;
   line-height: 28px;
+}
+
+.interests-grid {
+  display: grid;
+  width: 100%;
+  gap: 32px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+@media screen and (width <= 1024px) {
+  .interests-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .interests-grid > :last-child:nth-child(2n + 1) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .interests-item {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.interests-grid > :last-child:nth-child(3n + 1) {
+  grid-column: 2 / 3;
+}
+
+@media (width <= 768px) {
+  .interests-title {
+    text-align: center;
+  }
+
+  .interests-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

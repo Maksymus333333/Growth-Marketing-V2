@@ -7,7 +7,7 @@ export const ApplySection = () => {
   return (
     <section className="apply-section-wrapper">
       <div className="apply-section-photo">
-        <img src={ApplyPhoto} alt="apply icon" />
+        <img src={ApplyPhoto} className="apply-section-img" alt="apply icon" />
       </div>
       <div className="apply-section-text-group">
         <div className="apply-section-text">

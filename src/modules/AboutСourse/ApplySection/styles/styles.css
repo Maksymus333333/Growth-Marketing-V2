@@ -1,16 +1,27 @@
 .apply-section-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
   gap: 167px;
-  padding-right: 91px;
   padding-top: 130px;
+}
+
+.apply-section-photo {
+  display: flex;
+  width: 100%;
+}
+
+.apply-section-img {
+  width: 100%;
 }
 
 .apply-section-text-group {
   display: flex;
+  width: 100%;
   flex-direction: column;
   gap: 32px;
+  padding-right: 91px;
 }
 
 .apply-section-text {
@@ -20,11 +31,46 @@
 }
 
 .apply-section-title {
-  font-size: 40px;
   font-weight: 900;
 }
 
 .apply-section-description {
-  font-size: 20px;
   line-height: 28px;
+}
+
+@media screen and (width <= 1440px) {
+  .apply-section-text-group {
+    padding-right: 0;
+  }
+
+  .apply-section-wrapper {
+    gap: 47px;
+  }
+}
+
+@media (width <= 820px) {
+  .apply-section-wrapper {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .apply-section-text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .apply-section-description {
+    text-align: center;
+  }
+
+  .apply-section-photo {
+    width: auto;
+  }
+
+  .apply-section-text-group {
+    align-items: center;
+    justify-content: center;
+  }
 }

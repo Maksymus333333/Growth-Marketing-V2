@@ -7,3 +7,9 @@
   border-radius: 12px;
   font-size: 20px;
 }
+
+@media screen and (width <= 820px) {
+  .main-section-button {
+    width: 50%;
+  }
+}

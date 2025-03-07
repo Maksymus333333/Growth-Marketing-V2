@@ -12,7 +12,7 @@ export const MainSection = (): JSX.Element => {
           <h1 className="main-section-h1">
             Шукаю початківців для менторства у сфері
             <br />
-            <p> Growth Marketing Associate </p>
+            Growth Marketing Associate
           </h1>
           <p className="main-section-description">
             Привіт! Я хочу допомогти тим, хто тільки починає свій шлях у сфері росту та маркетингу.
