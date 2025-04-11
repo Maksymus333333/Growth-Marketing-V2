@@ -19,7 +19,7 @@ export const ThanksForContact = () => {
       <BackToHome />
 
       <div className="thanks-title-social">
-        <h1>Дякуємо вам за зв’язок!</h1>
+        <h1 className='thanks-title-h1'>Дякуємо вам за зв’язок!</h1>
 
         <div className="social-column-items">
           <div className="socials-container">

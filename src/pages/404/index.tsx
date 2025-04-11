@@ -1,7 +1,7 @@
 import React from 'react';
 import { JSX } from 'react';
 import './styles/style.css';
-import Image404 from '../../assets/images/page-404.png';
+import Image404 from '../../assets/images/page-404.webp';
 import { GoMain404 } from './features/GoMain';
 
 export const Page404 = (): JSX.Element => {

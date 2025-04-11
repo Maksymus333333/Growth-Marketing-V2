@@ -1,7 +1,7 @@
 .page-404-container-wrapper {
   display: flex;
   justify-content: center;
-  padding: 66px 515px 116px 515px;
+  padding: 158px 515px 116px 515px;
 }
 .page-404-container {
   display: flex;
@@ -42,19 +42,19 @@
 
 @media (width <= 1470px) {
   .page-404-container-wrapper {
-    padding: 66px 215px 116px 215px;
+    padding: 158px 215px 116px 215px;
   }
 }
 
 @media (width <= 1024px) {
   .page-404-container-wrapper {
-    padding: 66px 185px 116px 185px;
+    padding: 158px 185px 116px 185px;
   }
 }
 
 @media (width <= 850px) {
   .page-404-container-wrapper {
-    padding: 66px 90px 116px 90px;
+    padding: 158px 90px 116px 90px;
   }
   .image-404 {
     height: 368px;
@@ -67,3 +67,18 @@
     font-size: 18px;
   }
 }
+@media (width <= 420px) {
+  .image-404 {
+    height: 268px;
+    width: 259px;
+  }
+  .page-404-container-wrapper {
+    padding: 158px 20px 116px 20px;
+  }
+}
+@media (width <= 370px) {
+  .page-404-container-wrapper {
+    padding: 158px 15px 116px 15px;
+  }
+}
+  

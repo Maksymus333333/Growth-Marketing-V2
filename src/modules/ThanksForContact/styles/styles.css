@@ -5,14 +5,14 @@
   gap: 100px;
 }
 
-.thanks-title-social {
+.thanks-title-social { 
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 80px;
 }
 
-h1 {
+.thanks-title-h1 {
   text-align: center;
   font-size: 56px;
   margin: 0;
@@ -93,6 +93,14 @@ h1 {
 @media (width <= 1024px) {
   .social-main-text {
     font-size: 28px;
+  }
+  .thanks-title-h1 {
+    font-size: 32px;
+  }
+}
+@media (width <= 820px) {
+  .thanks-title-h1 {
+    font-size: 26px;
   }
 }
 

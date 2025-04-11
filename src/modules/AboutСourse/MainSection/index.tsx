@@ -1,8 +1,12 @@
-import React from 'react';
-
+import React, { Suspense } from 'react';
 import { JSX } from 'react';
 import './styles/styles.css';
-import { LoginButton } from '../../shared/LoginButton';
+
+const LoginButton = React.lazy(() =>
+  import('../../shared/LoginButton').then(module => ({
+    default: module.LoginButton,
+  }))
+);
 
 export const MainSection = (): JSX.Element => {
   return (
@@ -17,7 +21,9 @@ export const MainSection = (): JSX.Element => {
           <p className="main-section-description">
             Привіт! Я хочу допомогти тим, хто тільки починає свій шлях у сфері росту та маркетингу.
           </p>
-          <LoginButton />
+          <Suspense fallback={<div>Завантаження…</div>}>
+            <LoginButton/>
+          </Suspense>
         </div>
       </div>
     </section>
