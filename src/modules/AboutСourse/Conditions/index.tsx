@@ -2,7 +2,7 @@ import React from 'react';
 import { JSX } from 'react';
 import '../Conditions/styles/style.css';
 import BluePath from '../../../assets/icons/blue-path.svg'
-import Ellipse from '../../../assets/images/Ellipse1.png'
+import Ellipse from '../../../assets/images/Ellipse1.webp'
 
 export const Conditions = (): JSX.Element => {
   return (

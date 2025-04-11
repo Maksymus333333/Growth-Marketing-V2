@@ -8,11 +8,13 @@ export const Footer = (): JSX.Element => {
   return (
     <section className="footer-section-wrapper">
       <div className="footer-links">
-        {['Політка Конфіденційності', 'Умови використання', 'Політка файлів cookie', 'Авторські права'].map((text) => (
-          <p className="footer-text" key={text}>
-            {text}
-          </p>
-        ))}
+        {['Політика Конфіденційності', 'Умови використання', 'Політика файлів cookie', 'Авторські права'].map(
+          (text) => (
+            <p className="footer-text" key={text}>
+              {text}
+            </p>
+          )
+        )}
       </div>
 
       <div className="footer-info-container">

@@ -1,28 +1,28 @@
 .thanks-contact-wrapper {
   display: flex;
-  padding: 218px 160px;
   flex-direction: column;
+  padding: 130px 160px;
   gap: 100px;
 }
 
-.thanks-title-social {
+.thanks-title-social { 
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   gap: 80px;
 }
 
-.thanks-title-social h1 {
+.thanks-title-h1 {
   text-align: center;
   font-size: 56px;
+  margin: 0;
   font-weight: 900;
-  line-height: 67px;
 }
 
 .socials-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 
@@ -30,9 +30,9 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  border-radius: 20px;
   padding: 20px;
   background-color: rgb(40 89 197 / 25%);
-  border-radius: 20px;
 }
 
 .chat-bubbles-icon {
@@ -47,46 +47,82 @@
 
 .socials-items-container {
   display: flex;
-  width: 678px;
-  padding: 40px 52px;
-  border: 1px solid #dadada;
-  border-radius: 32px;
-  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
-  flex-direction: row;
   gap: 52px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px 52px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 32px;
+  border: 1px solid #dadada;
 }
 
 .social-column-items {
   display: flex;
-  align-items: center;
   flex-direction: column;
   gap: 32px;
+  align-items: center;
 }
 
 .linked-container {
   display: flex;
-  align-items: center;
   flex-direction: row;
+  align-items: center;
   gap: 20px;
 }
 
 .linked-in-icon {
-  width: 37px;
   height: 37px;
+  width: 37px;
 }
 
 .social-icon {
-  width: 64px;
   height: 64px;
+  width: 64px;
 }
 
 .linked-text-container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
 .linked-text {
   font-size: 20px;
   line-height: 28px;
+}
+
+@media (width <= 1024px) {
+  .social-main-text {
+    font-size: 28px;
+  }
+  .thanks-title-h1 {
+    font-size: 32px;
+  }
+}
+@media (width <= 820px) {
+  .thanks-title-h1 {
+    font-size: 26px;
+  }
+}
+
+@media (width <= 768px) {
+  .socials-items-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .thanks-contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 0px;
+    gap: 100px;
+  }
+  .social-main-text {
+    font-size: 24px;
+  }
+}
+
+@media (width <= 481px) {
+  .socials-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
