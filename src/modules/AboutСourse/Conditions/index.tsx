@@ -12,7 +12,7 @@ export const Conditions = (): JSX.Element => {
       <img src={BluePath} className='blue-path' alt='BluePath icon' />
       </div>
       <div className="conditions-list">
-      <img src={Ellipse} className='ellipse-1'/>
+      <img src={Ellipse} className='ellipse-1' alt='ellipse-img'/>
         <div className="list-points">
           <div className="gap-container">
             <div className="point-restangle-container">
